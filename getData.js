@@ -1,11 +1,11 @@
 const URL_PAGE_1 =
-  "http://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&page=1";
+  "https://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&page=1";
 const URL_PAGE_2 =
-  "http://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&page=2";
+  "https://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&page=2";
 const URL_PAGE_3 =
-  "http://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&page=3";
+  "https://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&page=3";
 const URL_PAGE_4 =
-  "http://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&page=4";
+  "https://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&page=4";
 
 export async function getData() {
   const response1 = await fetch(URL_PAGE_1);

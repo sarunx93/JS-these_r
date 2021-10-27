@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THESE R</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="nav-center">
+            <div class="app-name-container">
+
+                <h3 class="app-name">| THESE R |</h3>
+            </div>
+
+            <div class="abt-search">
+                <button class="about-text-btn about-btn">About This App</button>
+
+                <!-- search bar -->
+                <form id="form">
+                    <input type="text" id="search" placeholder="search">
+                </form>
+
+            </div>
+        </div>
+    </nav>
+    <div class="the-modal">
+        <div class="about-modal">
+            <button class="close-btn">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-text">
+                <h3 class="modal-title">What is it all about?</h3>
+                <p>Hi there, THESE R is a web application that displays about 80 R-rated movies, featured with search
+                    function and separate pages showing each movie's information. This web application is made of HTML,
+                    CSS and Vanilla JavaScript, no other frameworks or libraries involved. This small project is part of
+                    my portfolio to demonstrate my knowledge and understanding in web development, front-end in
+                    particular, to the public. Also, I would like to acknowledge moviedb.org for this amazing and
+                    easy-to-use API. I am so grateful for that. Finally, thank you much for visiting this small project,
+                    hope you enjoy. ^^</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="movies">
+        <h2 class="page-loading">
+            loading...
+        </h2>
+    </section>
+    <div class="page-btn-container"></div>
+    <footer class="footer">
+        <h2 class="thanks-text">Special Thanks</h2>
+        <div class="img-container">
+            <img src="./movie_db_logo.svg" alt="">
+        </div>
+    </footer>
+</body>
+<script type="module" src="script.js"></script>
+
+</html>

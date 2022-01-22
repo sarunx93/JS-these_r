@@ -2,14 +2,12 @@ import { getData } from "./getData.js";
 import { display } from "./display.js";
 import { paginate } from "./paginate.js";
 import { displayButtons } from "./displayButtons.js";
-const URL =
-  "http://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845";
+const URL = `http://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845`;
 
 //http://api.themoviedb.org/3/discover/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&page=6
 
 const IMAGE_URL = `https://image.tmdb.org/t/p/w500`;
-const SEARCH_URL =
-  "http://api.themoviedb.org/3/search/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&query=''";
+const SEARCH_URL = `http://api.themoviedb.org/3/search/movie?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=812f407f06032e3686428df742805845&query=''`;
 
 const movieContainer = document.querySelector(".movies");
 const aboutBtn = document.querySelector(".about-btn");
